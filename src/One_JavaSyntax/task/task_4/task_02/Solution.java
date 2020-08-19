@@ -1,0 +1,25 @@
+package One_JavaSyntax.task.task_4.task_02;
+
+ /*
+ * Цена яблок
+ * Посчитать суммарную стоимость яблок.
+ */
+
+public class Solution {
+    public static void main(String[] args) {
+        Apple apple = new Apple();
+        apple.addPrice(50);
+        Apple apple2 = new Apple();
+        apple2.addPrice(100);
+        System.out.println("Стоимость яблок " + Apple.applesPrice);
+    }
+
+    public static class Apple {
+        public static int applesPrice = 0;
+
+        public static void addPrice(int applesPrice) {
+            //напишите тут ваш код
+            Apple.applesPrice += applesPrice;
+        }
+    }
+}

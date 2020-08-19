@@ -1,0 +1,24 @@
+package One_JavaSyntax.task.task_0.task_07;
+
+ /*
+ * 2 плюс 3 равно 5
+ */
+
+public class Solution {
+    public static void main(String[] args) {
+        //напишите тут ваш код
+        int a = 3;
+        int b = 2;
+
+        //System.out.print("два");
+        System.out.print(b);
+        System.out.print(" плюс ");
+        //System.out.print(" минус ");
+        System.out.print(a);
+        //System.out.print("три");
+        System.out.print(" равно ");
+        //System.out.print(" будет ");
+        //System.out.print("пять");
+        System.out.print(a + b);
+    }
+}
